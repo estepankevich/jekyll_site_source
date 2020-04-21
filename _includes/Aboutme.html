@@ -1,0 +1,29 @@
+<div class="sidebar-module about">
+  <h4>{{ site.locales[site.default_locale].Aboutme }}</h4>
+  <img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>
+  <span>{{site.aboutme}}</span>
+  <br />
+
+  {% if site.ShowContactInfo == "True" %}
+	
+  {% if site.linkedin_username != empty %}
+  <a href="https://linkedin.com/in/{{site.linkedin_username}}" title="LinkeidinID: {{site.linkedin_username}}"><span class="social-icon linkedin"></span></a>
+  {% endif %}
+  {% if site.github_username != empty %}
+  <a href="https://github.com/{{site.github_username}}" title="github: {{site.github_username}}"><span class="social-icon github"></span></a>
+  {% endif %}
+  {% if site.medium_username != empty %}
+  <a href="https://medium.com/@{{site.medium_username}}" title="medium: {{site.medium_username}}" class="social-icon medium"></a>
+  {% endif %}
+  {% if site.facebook_username != empty %}
+  <a href="https://facebook.com/{{site.facebook_username}}" title="facebook: {{site.facebook_username}}"><span class="social-icon facebook "></span></a>
+  {% endif %}
+  {% if site.instagram_username != empty %}
+  <a href="https://instagram.com/{{site.instagram_username}}" title="instagram: {{site.instagram_username}}"><span class="social-icon instagram"></span></a>
+  {% endif %}
+  {% if site.telegram_username != empty %}
+  <a href="https://t.me/{{site.telegram_username}}" title="telegram: {{site.telegram_username}}"><span class="social-icon telegram"></span></a>
+  {% endif %}
+  {% endif %}
+
+</div>
