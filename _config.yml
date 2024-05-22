@@ -6,15 +6,14 @@ email:
 description: "Human exploring the world" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Data Science, Mathematics"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://stepankevich.xyz/" # the base hostname & protocol for your site
+url: "https://stepankevich.com/" # the base hostname & protocol for your site
 locale: en_US
 languages: ["en", "ru"]
 defaultLang: en
 languageNames:
-  ru: Deutsch
   en: English
 ### Personal info and site tools info:
-instagram_username: estepankevich2 
+instagram_username: estepankevich 
 github_username: estepankevich
 linkedin_username: estepankevich
 facebook_username: estepankevich
@@ -39,7 +38,7 @@ locales:
     en:
       Aboutme: "About Me"
       Tech_Blog: "Tech Blog"
-      Lifestyle_Blog: "Lifestyle Blog in Russian"
+      Lifestyle_Blog: "Lifestyle Blog"
       Archives: "Archives"
       Blogroll: "Blogroll"
       Categories: "Categories"
